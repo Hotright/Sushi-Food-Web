@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ---------------------------------------------------------------------- MAIN -------------------------------------------------------------- */
+
+main{
+    background: #ffff;
+    position: relative;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+main .text h1{
+    padding-left: 250px;
+    margin-top: -705px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 63px;
+    font-weight: 600px;
+    text-decoration: underline gainsboro;
+}
+/* main .text h1{
+
+} */
+
+
+/* ----------------------------------------------------------------- SIDE BAR ----------------------------------------------------------------- */
+.SideBar{
+    background: #0C0B0B;
+    flex-direction: column; 
+    width: 200px;
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 30px, 25px, 50px, rgb(39, 4, 4);
+    position: relative;
+    width: 132px;
+    height: 700px;
+    margin-left: 57px;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: #F1D5BB;
+    box-shadow: 25px 25px 50px rgb(174, 174, 174);
+}
+
+.SideBar img{
+    margin-top: 20px;
+    padding: 0 50px 55px;
+    width: 35px;
+}
+
+.SideBar span img{
+    background: #F1D5BB;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 47px;
+}
+
+/* ------------------------------------------------------------------- DISHES ---------------------------------------------------------------------- */
+.dishesUp{
+    display: flex;
+    position: absolute;
+    gap: 6rem;
+    left: 250px;
+    top: 145px;
+}
+
+.dishesUp img{
+    width: 215px;
+    height: 235px;
+    border-radius: 5px;
+}
+
+.dishesUp p{
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Mulish'; 
+    text-align: center;
+}
+
+.dishesUp a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.dishesUp a:hover{
+    color: blue;
+}
+
+.dishesDown{
+    display: flex;
+    position: absolute;
+    gap: 6rem;
+    left: 250px;
+    top: 450px;
+}
+
+.dishesDown img{
+    width: 215px;
+    height: 235px;
+    border-radius: 5px;
+}
+
+.dishesDown p{
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Mulish'; 
+    text-align: center;
+}
+
+.dishesDown a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.dishesDown a:hover{
+    color: blue;
+}

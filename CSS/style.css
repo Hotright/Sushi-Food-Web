@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.background img{
+    width: 100%;
+    position: absolute;
+}
+
+.content{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+
+.content h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.content h1 span{
+    font-weight: bolder;
+}
+
+.content p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.frontclick{
+    position: relative;
+    text-align: center;
+    margin-top: 400px;
+}
+
+button{
+    width: 230px;
+    height: 70px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: #000;
+}
+
+button:hover{
+    border: 2px solid blue;
+}
+
+
+/* ------------------------------ MENU PAGE SECTION -------------------------- */
